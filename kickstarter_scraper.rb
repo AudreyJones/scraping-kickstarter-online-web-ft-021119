@@ -12,6 +12,7 @@ def create_project_hash
   # image link: project.css("div.project-thumbnail a img").attribute("src").value
   # Description: project.css("p.bbcard_blurb").text
   # Location: project.css("span.location-name").text
+  # Percent funded: pry(main)> project.css("li.first.funded").text
   binding.pry
 end
 
